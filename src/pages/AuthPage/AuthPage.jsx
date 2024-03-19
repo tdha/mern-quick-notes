@@ -7,7 +7,7 @@ function AuthPage({ setUser }) {
 
     return (
         <main>
-            <h1>Hello 👋</h1>
+            <h1>✏️ Quick Notes</h1>
             { showSignup ?
             <SignUpForm setUser={ setUser } showSignup={ showSignup } setShowSignup={ setShowSignup} />
             :
